@@ -1,1 +1,3 @@
 # Sampling
+
+In this code, we first download the dataset and split it into features and target variable. We then split the dataset into training and testing sets. We use the RandomOverSampler, SMOTE, ADASYN, RandomUnderSampler, and TomekLinks techniques from the imblearn library to create five different balanced datasets from the training set. We use the DecisionTreeClassifier, GaussianNB, LogisticRegression ,RandomForestClassifier and SVC models from the sklearn library to create five different machine learning models. We then loop through each combination of sampling technique and machine learning model, apply the sampling
